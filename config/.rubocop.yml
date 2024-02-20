@@ -1,0 +1,15 @@
+# .rubocop.yml
+
+# Set the Ruby version for RuboCop to target
+AllCops:
+  TargetRubyVersion: 3.0
+
+# Define your preferred indentation style
+Layout/IndentationWidth:
+  Width: 2
+
+# Define your preferred line length
+Layout/LineLength:
+  Max: 120
+
+# Add more rules as needed based on your project's requirements
