@@ -1,0 +1,14 @@
+<%= form_with(model: @game, url: games_path, method: :post) do |form| %>
+  <%= form.label :player1 %>
+  <%= form.text_field :player1 %>
+
+  <%= form.label :player2 %>
+  <%= form.text_field :player2 %>
+
+  <%= form.label :size %>
+  <%= form.number_field :size %>
+
+  <%= form.submit "Start Game" %>
+
+<% end %>
+

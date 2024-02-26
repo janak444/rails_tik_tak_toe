@@ -1,0 +1,14 @@
+<h1>Board</h1>
+<table>
+  <tbody>
+    <% @board.size.times do |x| %>
+      <tr>
+        <% @board.size.times do |y| %>
+          <td>
+            <%= @board.cell_value(x, y) %>
+          </td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
